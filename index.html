@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+            <title>GEOG 572 Lab 3</title>
+
+        <!--put your external stylesheet links here-->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
+        <link rel="stylesheet" href="css/style.css">
+        <!--[if IE<9]>
+            <link rel="stylesheet" href="css/style.ie.css">
+        <![endif]-->
+
+         <!--you can also place internal styles here;
+             place these within <style> tags-->
+        
+    </head>
+
+    <body>
+        
+        <h1 align="center">Oregon Population by County</h1>
+        <h3 align="center">GEOG 572 Lab 3</h3>
+        <hr>
+        <p align="center">Proportional Symbols Map:</p>
+        
+        <!--put your initial page content here-->
+        <div id="map"></div>
+        <!--you can also use this space for internal scripts;
+        place these within <script> tags-->
+        <hr>
+        <p align="center">Choropleth Map:</p>
+        <div id="map2"></div>
+        <hr>
+        
+
+        <!--put your external script links here-->
+        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
+        <script src="https://cdn.jsdelivr.net/npm/@turf/turf@7/turf.min.js"></script>
+        <script type="text/javascript" src="js/lab3.1.js" defer></script>
+        <script type="text/javascript" src="js/lab3.2.js" defer></script>
+    </body>
+</html>
